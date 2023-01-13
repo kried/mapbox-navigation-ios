@@ -25,7 +25,7 @@ let package = Package(
         .package(name: "MapboxDirections", url: "https://github.com/mapbox/mapbox-directions-swift.git", from: "2.6.0"),
         .package(name: "MapboxMobileEvents", url: "https://github.com/mapbox/mapbox-events-ios.git", from: "1.0.0"),
         .package(name: "MapboxNavigationNative", url: "https://github.com/mapbox/mapbox-navigation-native-ios.git", from: "94.0.5"),
-        .package(name: "MapboxMaps", url: "https://github.com/mapbox/mapbox-maps-ios.git", from: "10.5.1"),
+        .package(name: "MapboxMaps", url: "https://github.com/mapbox/mapbox-maps-ios.git", "10.5.1"..."10.10.0"),
         .package(name: "MapboxCommon", url: "https://github.com/mapbox/mapbox-common-ios.git", .exact("21.3.0")),
         .package(name: "Solar", url: "https://github.com/ceeK/Solar.git", from: "3.0.0"),
         .package(name: "MapboxSpeech", url: "https://github.com/mapbox/mapbox-speech-swift.git", from: "2.0.0"),
